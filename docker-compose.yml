@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  worker:
+    image: dip-query-service
+    ports:
+     - '5005:5005'
+    extra_hosts:
+      es.dip.ntmc.gov.bd: 10.101.17.131
+      redis.dip.ntmc.gov.bd: 10.101.17.140
+    container_name: dip-query-service

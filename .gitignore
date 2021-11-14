@@ -1,0 +1,16 @@
+*.pyc
+/.github
+/.vscode
+*/.vscode
+dump.rdb
+__pycache__
+.env
+*.ipynb
+*.ipynb_checkpoints
+*/templates
+*/*/template
+/src/analyzedDataProvider/jupyterFiles
+/src/reportGenerator/jupyter_files
+/src/linkAnalyzer/jupyter_files
+
+
